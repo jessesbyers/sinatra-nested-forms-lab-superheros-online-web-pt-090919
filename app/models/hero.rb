@@ -3,7 +3,6 @@ class Hero
   @@all = []
 
   def initialize (args)
-    binding.pry
     @name = args[:name]
     @power = args[:power]
     @bio = args[:bio]
