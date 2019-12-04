@@ -4,9 +4,9 @@ class Hero
 
   def initialize (args)
     binding.pry
-    @name = params[:team][:members][][:name]
-    @power = params[:team][:members][][:power]
-    @bio = params[:team][:members][][:bio]
+    @name = args[:name]
+    @power = args[:power]
+    @bio = args[:bio]
     @@all << self
   end
 
